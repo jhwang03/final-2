@@ -1,0 +1,14 @@
+/* ----------------content--------------------- */
+
+.content {
+   position: absolute;
+   right: 428px;
+   top: 100px;
+   z-index: -9;
+}
+
+p {
+   font-size: 25px;
+   text-align: center;
+   font-weight: 300;
+}
