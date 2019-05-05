@@ -4,13 +4,11 @@
 }
 
 body {
+  font-family: 'Open Sans', sans-serif;
    width: 1200px;
    /* width: 1366px; */
    margin: auto;
    background-color: #f3f3f3;
-   /* background-color: #fff; */
-   font-family: 'Open Sans', sans-serif;
-   /* height: 1000px; */
    overflow-x: hidden;
 }
 
@@ -26,7 +24,7 @@ nav {
    height: 800px;
    width: 220px;
    background-color: #56B5BF;
-   /* opacity: .6; */
+   opacity: .5;
 }
 
 li {
