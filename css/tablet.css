@@ -1,0 +1,36 @@
+body {
+   width: 768px;
+}
+
+#header {
+   width: 720px;
+   height: 200px;
+}
+
+nav {
+   position: fixed;
+   height: 150px;
+   width: 768px;
+   background-color: #020f59;
+   /* opacity: .5; */
+}
+
+.left-one {
+   display: block;
+   position: relative;
+   text-align: left;
+   font-size: 25px;
+   font-weight: 300;
+   width: 100px;
+}
+
+/* --------content------------- */
+
+#hamburger {
+   position: fixed;
+   margin: 0;
+   padding: 0;
+   z-index: 90;
+   display: block;
+   color: #fff;
+}

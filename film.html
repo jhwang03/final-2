@@ -8,11 +8,17 @@
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400" rel="stylesheet">
   <link rel="stylesheet" href="css/header.css">
   <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" media="(max-width: 400px)" href="css/phone.css">
+  <link rel="stylesheet" media="(min-width: 401px) and (max-width: 768px)" href="css/tablet.css">
+  <link rel="stylesheet" media="(min-width: 769px) and (max-width: 1200px)" href="css/laptop.css">
+  <link rel="stylesheet" media="(min-width: 1201px)" href="css/desktop.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
   <title>Jimin - Film</title>
 </head>
 <body>
-  <section class="header">
-    <div>
+  <section>
+    <div id="header">
+      <i class="fas fa-bars fa-2x" id="hamburger"></i>
       <nav>
         <ul>
           <li class="nav-title"><a href="index.html">Jimin</a></li>
@@ -24,7 +30,7 @@
       </nav>
     </div>
   </section>
-   <section class="content">
+   <section id="content">
      <div class="film-container">
         <div>
           <iframe src="https://www.youtube.com/embed/No5BzGIdyKc" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
